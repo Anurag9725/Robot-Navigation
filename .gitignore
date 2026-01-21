@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and data
+*.log
+evaluation_data/
+paper_graphs/
+*.json
+
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Webots temp files
+*.wbproj
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+robot_command.txt
